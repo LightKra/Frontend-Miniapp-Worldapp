@@ -1,0 +1,54 @@
+{
+  "name": "frontend-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "yarn vite",
+    "build": "yarn tsc -b && yarn vite build",
+    "lint": "yarn eslint .",
+    "preview": "yarn vite preview"
+  },
+  "author": "Michael Alava",
+  "keywords": [
+    "frontend",
+    "react",
+    "vite",
+    "tailwindcss",
+    "worldcoin",
+    "minikit",
+    "zustand"
+  ],
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.14",
+    "@worldcoin/minikit-js": "^1.8.0",
+    "axios": "^1.8.4",
+    "lucide-react": "^0.482.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.3.0",
+    "tailwindcss": "^4.0.14",
+    "uuid": "^11.1.0",
+    "viem": "^2.23.15",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react-swc": "^3.8.0",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "terser": "^5.39.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0"
+  },
+  "engines": {
+    "yarn": ">= 1.22.0",
+    "npm": "please-use-yarn",
+    "node": ">=20.0.0"
+  }
+}
